@@ -1,0 +1,111 @@
+/* Survey.css */
+
+.survey-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+  }
+  .survey-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full screen height */
+    background-color: #f8f9fa; /* Light background */
+  }
+  
+  .welcome-screen {
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+  }
+  
+  .start-btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .start-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .survey-header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .survey-question {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .rating-buttons button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .rating-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  .text-answer {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .navigation-buttons button {
+    margin: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .prev-btn {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .next-btn {
+    background-color: #17a2b8;
+    color: white;
+  }
+  
+  .submit-btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  button:hover:not(:disabled) {
+    opacity: 0.9;
+  }
+  
